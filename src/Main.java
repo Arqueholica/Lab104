@@ -24,7 +24,6 @@ public class Main {
 
 
         Collections.sort(numbers);
-        for (int i: numbers){}
 
         System.out.println("El número menor es: " + numbers.get(0));
         System.out.println("El número mayor es: "+ numbers.get(numbers.size() -1));
@@ -42,7 +41,6 @@ public class Main {
 
 
         Collections.sort(numbers);
-        for (int i: numbers){}
 
         System.out.println("El número menor es: " + numbers.get(0));
         System.out.println("El segundo número menor es: "+ numbers.get(1));
@@ -57,7 +55,7 @@ public class Main {
         int parte2 = (4 * y)/5 - x;
         int parte3 = (int) Math.pow(parte2, 2);
 
-        int partes = (int)Math.pow(x,2) + (int)Math.pow(((4 * y)/5 - x),2);
+        int partes = (int)Math.pow(x,2) + (int)Math.pow(((double) (4 * y) /5 - x),2);
 
         int resultado = parte1 + parte3;
 
